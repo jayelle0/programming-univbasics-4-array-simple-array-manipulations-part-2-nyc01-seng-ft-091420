@@ -1,4 +1,4 @@
-def using_concat" do 
+def using_concat (a,b)
   before(:each) do 
     @my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
     more_favs = ["sports cars", "flatiron school"]
