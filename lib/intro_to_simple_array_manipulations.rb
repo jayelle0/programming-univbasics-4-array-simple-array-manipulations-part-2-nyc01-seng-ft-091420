@@ -2,7 +2,10 @@ def using_concat (a,b)
   a.concat (b)
 end
  
-# describe "using_insert" do 
+def using_insert (array, element)
+  array[4].insert (element)
+end
+
 #   before(:each) do 
 #     @list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
 #     @another_language = "Python"
